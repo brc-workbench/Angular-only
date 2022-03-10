@@ -1,4 +1,9 @@
 <div>
-    <h1>This is a super cool component</h1>>
-    <p>It is so amazing!</p>
+    <h1>The Dashboard</h1>
+    <p>Supported Locations</p>
+    <ul>
+        <li *ngFor="let location of supportedPowerBILocations">
+            Name: {{location.name}} Report: {{location.powerBILink}}
+          </li>
+    </ul>    
 </div>
