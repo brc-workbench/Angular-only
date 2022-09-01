@@ -129,6 +129,6 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-workbench"
+    }
+  }
 }
